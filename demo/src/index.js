@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
 import { Row, Col, Select, Card } from 'antd'
-import { AnalogClock } from '../../lib'
+import AnalogClock from '../../src'
 import 'antd/dist/antd.css'
 import './index.css'
 const Option = Select.Option;
