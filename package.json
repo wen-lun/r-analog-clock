@@ -1,0 +1,55 @@
+{
+  "name": "r-analog-clock",
+  "version": "1.0.0",
+  "description": "基于react和concise-clock开发的模拟时钟组件",
+  "main": "lib/index.js",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "start": "nwb serve-react-demo",
+    "release": "npm run build & npm publish"
+  },
+  "dependencies": {
+    "concise-clock": "^1.0.3"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "antd": "^3.11.6",
+    "nwb": "0.23.x",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "author": "wenlun",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react.js",
+    "react-component",
+    "clockwise",
+    "clock",
+    "digital clock",
+    "r-digital-clock",
+    "react-digital-clock",
+    "analog clock",
+    "r-clock",
+    "react-clock",
+    "react-analog-clock",
+    "time",
+    "模拟时钟",
+    "数字时钟"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/destiny-wenlun/r-analog-clock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/destiny-wenlun/r-analog-clock/issues"
+  },
+  "homepage": "https://github.com/destiny-wenlun/r-analog-clock#readme"
+}
