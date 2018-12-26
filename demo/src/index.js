@@ -23,8 +23,7 @@ class Demo extends Component {
       secondHandColor: "red"
     }
   }
-  componentDidMount() {
-  }
+
   render() {
     let {
       size, borderColor, backgroundColor, scaleColor, hourColor, scaleType,
@@ -37,7 +36,7 @@ class Demo extends Component {
     return (
       <div style={{ height: "100%" }}>
         <div style={{ float: "left", width: "50%", height: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-          <AnalogClock {...this.state} />
+          <AnalogClock  {...this.state} />
         </div>
         <div style={{ float: "left", width: "50%", height: "100%", display: "flex", alignItems: "center" }}>
           <Card title="参数" style={{ width: 300 }}>
