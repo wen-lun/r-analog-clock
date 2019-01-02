@@ -1,5 +1,5 @@
 # 效果图
-<img src="https://raw.githubusercontent.com/destiny-wenlun/concise-clock/master/img/demo1.gif" width="177"  /><img src="https://raw.githubusercontent.com/destiny-wenlun/concise-clock/master/img/demo2.gif" width="177"  /><img src="https://raw.githubusercontent.com/destiny-wenlun/concise-clock/master/img/demo3.gif" width="177"  /><img src="https://raw.githubusercontent.com/destiny-wenlun/concise-clock/master/img/demo4.gif" width="177"  /><img src="https://raw.githubusercontent.com/destiny-wenlun/concise-clock/master/img/demo5.gif" width="177"  />
+<img src="https://raw.githubusercontent.com/destiny-wenlun/concise-clock/master/img/demo1.gif" width="177"  /><img src="https://raw.githubusercontent.com/destiny-wenlun/concise-clock/master/img/demo2.gif" width="177"  /><img src="https://raw.githubusercontent.com/destiny-wenlun/concise-clock/master/img/demo3.gif" width="177"  /><img src="https://raw.githubusercontent.com/destiny-wenlun/concise-clock/master/img/demo4.gif" width="177"  /><img src="https://raw.githubusercontent.com/destiny-wenlun/concise-clock/master/img/demo5.gif" width="177"  /><img src="https://raw.githubusercontent.com/destiny-wenlun/concise-clock/master/img/demo6.gif" width="177"  />
 
 >说明：这是基于react开发的一个模拟时钟组件。
 
@@ -142,6 +142,7 @@ class Demo extends Component{
 |scaleType|显示的刻度类型，roman：罗马数字，arabic：阿拉伯数字，none：不显示|String|arabic|
 |scaleColor|刻度线颜色|String|#666|
 |hourColor|刻度值颜色|String|#666|
+|handType|指针类型|line \| triangle|triangle|
 |secondHandColor|秒针颜色|String|red|
 |minuteHandColor|分针颜色|String|#666|
 |hourHandColor|时针颜色|String|black|
