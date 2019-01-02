@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
 import { Row, Col, Select, Card } from 'antd'
-import AnalogClock from '../../src'
+import AnalogClock from '../../lib'
 import 'antd/dist/antd.css'
 import './index.css'
 const Option = Select.Option;
@@ -18,6 +18,7 @@ class Demo extends Component {
       scaleType: "arabic",
       borderImage: null,
       backgroundImage: null,
+      handType: "triangle",
       hourHandColor: "black",
       minuteHandColor: "black",
       secondHandColor: "red"
@@ -26,7 +27,7 @@ class Demo extends Component {
 
   render() {
     let {
-      size, borderColor, backgroundColor, scaleColor, hourColor, scaleType,
+      size, borderColor, backgroundColor, scaleColor, hourColor, scaleType, handType,
       borderImage, backgroundImage, hourHandColor, minuteHandColor, secondHandColor
     } = this.state;
     const keyW = 10;
@@ -122,6 +123,15 @@ class Demo extends Component {
                   <Option
                     value="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1545553773235&di=1c768f80fc088c2edc20fa75af77c515&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201607%2F03%2F20160703164252_2WySB.jpeg"
                   >图片2</Option>
+                </Select>
+              </Col>
+            </Row>
+            <Row type="flex" align="middle" style={{ marginBottom: mb }}>
+              <Col span={keyW} >指针类型：</Col>
+              <Col span={valueW} >
+                <Select defaultValue={handType} style={{ width: selectW }} onChange={handType => { this.setState({ handType }) }}>
+                  <Option value="triangle">三角形</Option>
+                  <Option value="line">线条</Option>
                 </Select>
               </Col>
             </Row>
