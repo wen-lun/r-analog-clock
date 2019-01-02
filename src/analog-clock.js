@@ -49,6 +49,7 @@ AnalogClock.propTypes = {
     scaleType: PropTypes.string,
     scaleColor: PropTypes.string,
     hourColor: PropTypes.string,
+    handType: PropTypes.string,
     secondHandColor: PropTypes.string,
     minuteHandColor: PropTypes.string,
     hourHandColor: PropTypes.string,
