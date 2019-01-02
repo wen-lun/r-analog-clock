@@ -1,6 +1,6 @@
 {
   "name": "r-analog-clock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于react和concise-clock开发的模拟时钟组件",
   "main": "lib/index.js",
   "files": [
@@ -13,7 +13,7 @@
     "release": "npm run build & npm publish"
   },
   "dependencies": {
-    "concise-clock": "^1.0.3"
+    "concise-clock": "^1.0.4"
   },
   "peerDependencies": {
     "react": "16.x"
